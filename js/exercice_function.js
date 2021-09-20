@@ -23,6 +23,8 @@ var age = (parseFloat("35"));
 
         console.log("\nexercice 4");
 
+var texte = ("Bonjour");
+var maxLenght = (20);
 
 
 
