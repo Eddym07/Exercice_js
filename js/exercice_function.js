@@ -27,5 +27,33 @@ var texte = ("Bonjour");
 var maxLenght = (20);
 
 
+        console.log("\nexercice7");
 
+var newStudent = "Ryan Oper";
+var students = ["John Doe, Jane Doe, Marc Alm, Jimmy Turner"];
 
+console.log(newStudent);
+console.log(students);
+students.push(newStudent);
+console.log(students);
+
+        console.log("\nexercice 8");
+
+var transactions = [102, 50, 4563, 42, 78, 146, 10563];
+var researched = 42;
+console.log(transactions.includes(researched));
+
+if (transactions.includes(researched)) {
+        console.log("We found a matching transaction");
+}
+
+else {
+        (console.log("no match"));
+}
+
+        // exercice 9
+var students = ["John Doe", "Jane Doe", "Marc Alm", "Jimmy Turner"];
+console.log(students);
+
+students.sort();
+console.log(students);
