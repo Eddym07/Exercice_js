@@ -23,9 +23,44 @@ var age = (parseFloat("35"));
 
         console.log("\nexercice 4");
 
-var texte = ("Bonjour");
-var maxLenght = (20);
+var texte = ("Le soleil brille et lesoiseaux chantent");
+
+var maxLength = 45;
+console.log (texte.length)
 
 
+        if (texte.length > maxLength) {
+                console.log("your texte is too long")
+        }
 
+        else {
+                console.log("ok")
+        }
 
+        console.log("\nexercice 5");
+
+var texte = "a nice boat";
+
+var array = texte.split("");
+console.log(array[2]);
+
+        console.log("\nexercice 6");
+
+        var name = "Paul Dumas";
+        var expectedName = "paul dumas";
+
+        if (name.toLowerCase() === expectedName) {
+          console.log("OK Paul you can come in");
+        }
+        else {
+          console.log("We do not know you");
+        }    
+
+        console.log("\nexercice 7");
+var newStudent = "Ryan Oper";
+var students = ["John Doe", "Jane Doe", "Marc Alm", "Jimmy Turner"];
+console.log(newStudent);
+console.log(students);
+
+students.push(newStudent);
+console.log(students);
